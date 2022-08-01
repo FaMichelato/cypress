@@ -121,6 +121,6 @@ describe('Central de Atendimento ao Cliente TAT', function() {
         cy.fillMandatoryFieldsAndSubmit()
         cy.get('.success').should('be.visible') 
 
-    })
+    }) 
 
     })
